@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id = >Indian Citizen Information Form</h1>
+    <form action="">
+        <section id="personal_detail">
+            <h2>Personal Detail</h2>
+            <label for="full_name">Full Name:</label>
+            <input type="text" id="full_name" name="full_name" required><br><br>
+            <label for="dob">Date of birth</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>        
+            </select><br><br>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" ><br><br>
+            <label for="marital_status">Marital Status:</label>
+            <select name="marital_status" id="marital_status">
+                <option value="Single">Single</option>
+                <option value="Married">Married</option>
+                <option value="Divorced">Divorced</option>
+                <option value="Widowed">Widowed</option>    
+            </select><br><br>
+            <LAbel for="blood_group">Blood Group</LAbel>
+            <input type="text" id="blood_group" name="blood_group" required><br><br>
+
+        </section>
+        <section id="conatact_information">
+            <h2>Contact Information</h2>
+            <label for="number">Mobile number</label>
+            <input type= "number" id="number" name="number" placeholder="1234567890" required ><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="address">Address:</label><br>
+            
+            <textarea id="address" name="address" rows="4" cols="50" required></textarea><br><br>
+            <label for="state">state</label>
+            <select name="state" id="state">
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                <option value="Assam">Assam</option>
+                <option value="Bihar">Bihar</option>
+                <option value="Chhattisgarh">Chhattisgarh</option>
+                <option value="Goa">Goa</option>
+                <option value="Gujarat">Gujarat</option>
+                <option value="Haryana">Haryana</option>
+                <option value="Himachal Pradesh">Himachal Pradesh</option>
+                <option value="Jharkhand">Jharkhand</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Manipur">Manipur</option>
+                <option value="Meghalaya">Meghalaya</option>
+                <option value="Mizoram">Mizoram</option>
+                <option value="Nagaland">Nagaland</option>
+                <option value="Odisha">Odisha</option>
+                <option value="Punjab">Punjab</option>
+                <option value="Rajasthan">Rajasthan</option>
+                <option value="Sikkim">Sikkim</option>
+                <option value="Tamil Nadu">Tamil Nadu</option>
+                <option value="Telangana">Telangana</option>
+                <option value="Tripura">Tripura</option>
+                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                <option value="Uttarakhand">Uttarakhand</option>
+                <option value="West Bengal">West Bengal</option>
+                <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                <option value="Chandigarh">Chandigarh</option>
+                <option value="Dadra and Nagar Haveli and Daman and Diu">Dadra and Nagar Haveli and Daman and Diu</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                <option value="Ladakh">Ladakh</option>
+                <option value="Lakshadweep">Lakshadweep</option>
+                <option value="Puducherry">Puducherry</option>
+            </select>
+            <label for="pincode">PIN CODE</label>
+            <input type="number" id="pincode" name="pincode" required><br><br>
+        </section>
+        <section id="identity_information">
+              <h2>Identity Information</h2>
+                <label for="aadhar">Aadhar Number:</label>
+                <input type="number" id="aadhar" name="aadhar" required><br><br>
+                <label for="pan">PAN Number:</label>
+                <input type="text" id="pan" name="pan" required><br><br>
+                <label for="voter_id">voter_id</label>
+                <input type="text" id="voter_id" name="voter_id" ><br><br>
+                <label for="passport_number">Passport Number</label>
+                <input type="text" id="passport_number" name="passport_number" ><br><br>
+                <label for="driving_license">Driving Lincense</label>
+                <input type="text" id="driving_license" name="driving_license" ><br><br>
+        </section>
+        <section>
+            <H2>Educational and Professional Details</H2>
+            <label for="highest_education">Highest Education Qualification</label>
+            <select name="graduation" id="graduation">
+                <option value="post grad">Post graduation</option>
+                <option value="grad">Graduation</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="high school">High School</option>
+                <option value="middle school">Middle School</option>
+            </select>
+            <br><br>
+            <label for="profession">Profession</label>
+            <input type="text" id="profession" name="profession" required>
+            <br><br>
+        </section>
+        <section>Demographic / Other Details
+            <h2>Demographic / Other Details</h2>
+            <label for="nationality">Nationality</label>
+            <input type="text" id="nationality" name="nationality" value="Indian" readonly><br><br>
+            <label for="religion">Religion</label>
+            <select name="religion" id="religion">
+                <option value="Hinduism">Hinduism</option>
+                <option value="Islam">Islam</option>
+                <option value="Christianity">Christianity</option>
+                <option value="Sikhism">Sikhism</option>
+                <option value="Buddhism">Buddhism</option>
+                <option value="Jainism">Jainism</option>
+                <option value="Other">Other</option>
+            </select><br><br>
+            <label for="category">Category</label>
+            <select name="category" id="category">
+                <option value="General">General</option>
+                <option value="OBC">OBC</option>
+                <option value="SC">SC</option>
+                <option value="ST">ST</option>
+                <option value="Other">Other</option>
+            </select><br><br>
+            <label>Languages Known:</label><br>
+
+                <label><input type="checkbox" name="languages[]" value="Hindi"> Hindi</label><br>
+    <label><input type="checkbox" name="languages[]" value="English"> English</label><br>
+    <label><input type="checkbox" name="languages[]" value="Marathi"> Marathi</label><br>
+    <label><input type="checkbox" name="languages[]" value="Tamil"> Tamil</label><br>
+    <label><input type="checkbox" name="languages[]" value="Bengali"> Bengali</label><br>
+    <label><input type="checkbox" name="languages[]" value="Gujarati"> Gujarati</label><br>
+    <label><input type="checkbox" name="languages[]" value="Other"> Other:</label>
+    <input type="text" id="other_language" name="other_language" placeholder="Enter other language"><br><br>
+            <label for="disabilities">Disabilities (if any):</label><br>
+            <textarea id="disabilities" name="disabilities" rows="4" cols="50" placeholder="Specify any disabilities if applicable"></textarea><br><br>
+        </section>
+        <section id="upload_section">
+    <h2>Upload Documents</h2>
+
+
+    <label for="photo">Upload Photograph:</label>
+    <input type="file" id="photo" name="photo" accept="image/*" required><br><br>
+
+
+    <label for="signature">Upload Signature:</label>
+    <input type="file" id="signature" name="signature" accept="image/*" required><br><br>
+
+
+    <label for="aadhaar">Upload Aadhaar Card (PDF or Image):</label>
+    <input type="file" id="aadhaar" name="aadhaar" accept=".pdf, image/*" required><br><br>
+</section>
+<section id="declaration">
+    <h2>Declaration</h2>
+    
+    <p>
+        I hereby declare that all the information provided above is true 
+        to the best of my knowledge and belief.
+    </p>
+
+    <label>
+        <input type="checkbox" id="agree" name="agree" required>
+        I agree to the above statement.
+    </label><br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+</section>
+
+        
+    </form>
+</body>
+</html>
+
+<!-- Demographic / Other Details
+
+Include:
+
+Nationality (Fixed to “Indian”)
+
+Religion (Dropdown)
+
+Category (General / OBC / SC / ST / Other)
+
+Languages Known (Checkboxes)
+
+Disabilities (if any) -->
